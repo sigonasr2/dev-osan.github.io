@@ -39,8 +39,10 @@ At this point, you're ready to make a pull request, which is like saying _"Hey o
 _self explanatory_
 
 
+## Resources
 
-Here are some links that may be helpful for this process:  
+This isn't the first time someone has attempted to write a contribution guide. Here are some other guides people have written or places to find more information on git and contributing to open source.
+
 [Creating a pull request from a fork](https://help.github.com/en/articles/creating-a-pull-request-from-a-fork)  
 [Contributing](https://github.com/MarcDiethelm/contributing/blob/master/README.md)  
 [First Contributions](https://github.com/firstcontributions/first-contributions)  
