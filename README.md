@@ -1,3 +1,8 @@
+# Design Palette
+
+Himalaya (dark brown) #696035  
+Swamp (less black) #202222  
+
 # Contributing
 
 Please feel free to update this document. There's probably a bunch of ambiguous directions that I take for granted.
