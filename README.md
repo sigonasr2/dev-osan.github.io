@@ -54,3 +54,14 @@ This isn't the first time someone has attempted to write a contribution guide. H
 [GitHub Help and Documentation](https://help.github.com/en)  
 [How to Keep a Downstream git Repository Current with Upstream Repository Changes](https://medium.com/sweetmeat/how-to-keep-a-downstream-git-repository-current-with-upstream-repository-changes-10b76fad6d97)  
 [Your first open source contribution: a step-by-step technical guide](https://medium.com/@jenweber/your-first-open-source-contribution-a-step-by-step-technical-guide-d3aca55cc5a6)  
+
+
+[IMG]
+	devOsan
+--------------- Fold
+Vision
+Meeting Info
+Time	Location (Map)
+Events	Projects
+Learning Resources	FAQ
+Contact Us
