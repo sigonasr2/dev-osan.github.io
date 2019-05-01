@@ -38,7 +38,7 @@ Git works by _staging_ the files you want to commit, and then you have to _commi
 After committing all of your changes (you can make multiple commits), it's time to push up the code. Type `git push` and hit Enter. At this point, if you've never done this before you may need to type in your github login credentials. You can also `git push` as many times as you like before you go to the next step.
 
 ## The Pull Request
-At this point, you're ready to make a pull request, which is like saying _"Hey original repo, will you pull my changes into yours, please?"_ On your repo page, click `New Pull Request` and follow the instructions through submitting the pull request. We'll review it, merge it, or give you feedback!
+At this point, you're ready to make a pull request, which is like saying _"Hey original repo, will you pull my changes into yours, please?"_ **On your repo page**, click `New Pull Request` and follow the instructions through submitting the pull request. We'll review it, merge it, or give you feedback!
 
 ## Rinse & Repeat
 _self explanatory_
