@@ -1,51 +1,50 @@
-* {
- background-color: #BDB;
- color: #202222;
+.above-the-fold {
+  height: 100vh;
+  background-image: url("img/devOsan_noLogo.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-.rightalign{
- text-align:right;
+.rightalign {
+  text-align: right;
 }
 
-.osanlogo{
- font-size:64px;
+.visionstatement {
+  text-align: center;
+  font-style: italic;
 }
 
-.visionstatement{
- text-align:center;
- font-style: italic;
+.wingdings-image {
+  font-family: "Wingdings";
+  font-size: 96px;
+  color: #040;
+  width: 120px;
 }
 
-.wingdings-image{
- font-family:"Wingdings";
- font-size:96px;
- color:#040;
- width:120px;
+.webdings-image {
+  font-family: "Webdings";
+  font-size: 96px;
+  color: #040;
+  width: 120px;
 }
 
-.webdings-image{
- font-family:"Webdings";
- font-size:96px;
- color:#040;
- width:120px;
+.info-display {
+  padding-top: 16px;
 }
 
-.info-display{
- padding-top:16px;
+.info-header {
+  font-size: 48px;
 }
 
-.info-header{
- font-size:48px;
+.info-header-sm {
+  padding-left: 12px;
 }
 
-.info-header-sm{
- padding-left:12px;
+.answer {
+  margin-left: 10px;
 }
 
-.answer{
- margin-left:10px;
-}
-
-.spacer{
- height:64px;
+.spacer {
+  height: 64px;
 }
