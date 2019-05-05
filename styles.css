@@ -1,5 +1,5 @@
 .above-the-fold {
-  height: 100vh;
+  min-height: 100vh;
   background-image: url("img/devOsan_noLogo.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -10,6 +10,44 @@
 #announcement-card-link {
   text-decoration: none;
   color: black;
+}
+
+#club-info {
+  background-color: #202222;
+  color: white;
+  text-align: center;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  font-size: 1.5em;
+}
+
+#contact {
+  text-align: center;
+  color: white;
+  background-color: #202222;
+}
+
+.events-projects {
+  color: white;
+  background-color: #696035;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+#events,
+#projects {
+  margin-top: 1em;
+  text-align: center;
+}
+
+i {
+  font-size: 2em;
+}
+
+.learn-faq {
+  color: #202222;
+  padding-top: 3em;
+  padding-bottom: 3em;
 }
 
 .name-slogan {
@@ -24,13 +62,16 @@ h4 {
   font-size: 1.8em;
 }
 
-.rightalign {
-  text-align: right;
+.vision-statement {
+  /* font-size: 1.5em; */
+  margin-bottom: 3em;
 }
 
-.visionstatement {
-  text-align: center;
-  font-style: italic;
+/*  */
+
+
+.rightalign {
+  text-align: right;
 }
 
 .wingdings-image {
@@ -61,8 +102,4 @@ h4 {
 
 .answer {
   margin-left: 10px;
-}
-
-.spacer {
-  height: 64px;
 }

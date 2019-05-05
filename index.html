@@ -16,6 +16,15 @@
       crossorigin="anonymous"
     />
 
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="styles.css" />
 
     <title>{dev}Osan</title>
@@ -44,22 +53,24 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="#">Club Info</a>
+              <a class="nav-link" href="#club-info">Club Info</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Events</a>
+              <a class="nav-link" href="#events">Events</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Projects</a>
+              <a class="nav-link" href="#projects">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Learning Resources</a>
+              <a class="nav-link" href="#learning-resources"
+                >Learning Resources</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">FAQs</a>
+              <a class="nav-link" href="#faq">FAQs</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -109,105 +120,74 @@
     </div>
 
     <!-- below the fold. Vision statement, Meeting info -->
-    <div class="container-fluid">
+    <div class="container-fluid" id="club-info">
       <div class="row">
-        <div class="col col-2"></div>
-        <div class="col col-8">
-          <hr />
-          <div class="visionstatement">
-            <h3>
-              Bringing Developers, Graphic Designers, and Engineering together
-              at Osan! Beginners and Experts alike!
-            </h3>
-          </div>
-          <hr />
+        <div class="vision-statement col-sm-8 offset-sm-2">
+          Bringing Developers, Graphic Designers, and Engineering together at
+          Osan Air Base - beginners and experts alike.
         </div>
-        <div class="col col-2"></div>
       </div>
-    </div>
-    <div class="spacer"></div>
-    <div class="container-fluid" id="MEET">
       <div class="row">
-        <div class="col col-12 col-sm-6">
-          <h3>Meeting Info</h3>
-          <div class="wingdings-image" style="float:left;">
-            º
-          </div>
-          <div class="info-display">
-            <div class="info-header">
-              1600 - 1700
-            </div>
-            <div class="info-header-sm">
-              &nbsp;&nbsp;&nbsp;Tuesdays & Wednesdays
-            </div>
-          </div>
+        <div class="col-sm-6">
+          <i class="far fa-clock"></i><br /><br />
+          <p>Tuesdays @ 1600 - 1700 : Guided lesson</p>
+          <p>Wednesdays @ 1600 - 1700 : Open Project Work</p>
         </div>
-        <div class="col col-12 col-sm-6">
-          <h3>Location</h3>
-          <div class="webdings-image" style="float:left;">
-            H
-          </div>
-          <div class="info-header">
-            Mustang Center
-          </div>
+        <div class="col-sm-6">
+          <i class="fas fa-map-marker-alt"></i><br /><br />
+          <p>TAPS room at the Mustang Center</p>
+          <p>Osan Air Base, South Korea</p>
         </div>
       </div>
     </div>
-    <div class="spacer"></div>
-    <div class="container-fluid">
+
+    <!-- Events and Projects -->
+
+    <div class="container-fluid events-projects">
       <div class="row">
-        <div class="col col-12 col-sm-6" id="EVENT">
-          <h3>Events</h3>
-          <ul>
-            <li>Event 1</li>
-            <li>Event 2</li>
-            <li>Event 3</li>
-            <li>Event 4</li>
-          </ul>
+        <div class="col-sm-6" id="events">
+          <h3><i class="far fa-calendar-alt"></i><br />Events</h3>
+          <br />
+          <p>Pitch & Prototype Weekend - Aug 23-25</p>
         </div>
-        <div class="col col-12 col-sm-6" id="PROJECT">
-          <h3>Projects</h3>
-          <ul>
-            <li>Project 1</li>
-            <li>Project 2</li>
-            <li>Project 3</li>
-            <li>Project 4</li>
-          </ul>
+        <div class="col-sm-6" id="projects">
+          <h3><i class="fas fa-code-branch"></i><br />Projects</h3>
+          <br />
+          <p>Bus GPS</p>
+          <p>{dev}Osan Website</p>
+          <p>Pending Game Engine</p>
         </div>
       </div>
     </div>
-    <div class="spacer"></div>
-    <div class="container-fluid">
+
+    <!-- Learning Resources & FAQ -->
+    <div class="container-fluid learn-faq">
       <div class="row">
-        <div class="col col-12 col-sm-6" id="LEARN">
+        <div class="col-sm-6" id="learning-resources">
           <h3>Learning Resources</h3>
-          <div>Learning Resource 1 - <a href="">Go here</a></div>
-          <div>Learning Resource 2 - <a href="">Go here</a></div>
-          <div>Learning Resource 3 - <a href="">Go here</a></div>
-          <div>Learning Resource 4 - <a href="">Go here</a></div>
-          <div>Learning Resource 5 - <a href="">Go here</a></div>
+          <p>
+            Contributing Guides -
+            <a href="https://github.com/dev-osan/dev-osan.github.io">Go here</a>
+          </p>
         </div>
-        <div class="col col-12 col-sm-6" id="FAQ">
+        <div class="col-sm-6" id="faq">
           <h3>FAQ</h3>
-          <h6>??????</h6>
-          <div class="answer">AAAAAAAAA</div>
-          <h6>??????</h6>
-          <div class="answer">AAAAAAAAA</div>
-          <h6>??????</h6>
-          <div class="answer">AAAAAAAAA</div>
-          <h6>??????</h6>
-          <div class="answer">AAAAAAAAA</div>
+          <h6>Do I have to know how to program?</h6>
+          <div class="answer">
+            Absolutely not, just a desire to hang out with software developers.
+          </div>
         </div>
       </div>
     </div>
-    <div class="spacer"></div>
-    <div class="container-fluid">
+
+    <!-- Footer and Contact Us -->
+    <div class="container-fluid" id="contact">
       <div class="row">
-        <div class="col col-12" id="CONTACT">
-          <hr />
-          <center>
-            <h3>Contact Us</h3>
-          </center>
+        <div class="col">
+          <h3>Contact Us</h3>
+          <p>
+            <a href="mailto:kevinfalting@gmail.com">kevinfalting@gmail.com</a>
+          </p>
         </div>
       </div>
     </div>
