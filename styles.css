@@ -1,51 +1,110 @@
-* {
- background-color: #BDB;
- color: #202222;
+.above-the-fold {
+  min-height: 100vh;
+  background-image: url("img/devOsan_noLogo.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 3em;
 }
 
-.rightalign{
- text-align:right;
+#announcement-card-link {
+  text-decoration: none;
+  color: black;
 }
 
-.osanlogo{
- font-size:64px;
+#club-info {
+  background-color: #202222;
+  color: white;
+  text-align: center;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  font-size: 1.5em;
 }
 
-.visionstatement{
- text-align:center;
- font-style: italic;
+#contact {
+  text-align: center;
+  color: white;
+  background-color: #202222;
 }
 
-.wingdings-image{
- font-family:"Wingdings";
- font-size:96px;
- color:#040;
- width:120px;
+.events-projects {
+  color: white;
+  background-color: #696035;
+  padding-top: 3em;
+  padding-bottom: 3em;
 }
 
-.webdings-image{
- font-family:"Webdings";
- font-size:96px;
- color:#040;
- width:120px;
+#events,
+#projects {
+  margin-top: 1em;
+  text-align: center;
 }
 
-.info-display{
- padding-top:16px;
+i {
+  font-size: 2em;
 }
 
-.info-header{
- font-size:48px;
+.learn-faq {
+  color: #202222;
+  padding-top: 3em;
+  padding-bottom: 3em;
 }
 
-.info-header-sm{
- padding-left:12px;
+.name-slogan {
+  text-align: center;
 }
 
-.answer{
- margin-left:10px;
+h1 {
+  font-size: 5em;
 }
 
-.spacer{
- height:64px;
+h4 {
+  font-size: 1.8em;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.vision-statement {
+  /* font-size: 1.5em; */
+  margin-bottom: 3em;
+}
+
+/*  */
+
+
+.rightalign {
+  text-align: right;
+}
+
+.wingdings-image {
+  font-family: "Wingdings";
+  font-size: 96px;
+  color: #040;
+  width: 120px;
+}
+
+.webdings-image {
+  font-family: "Webdings";
+  font-size: 96px;
+  color: #040;
+  width: 120px;
+}
+
+.info-display {
+  padding-top: 16px;
+}
+
+.info-header {
+  font-size: 48px;
+}
+
+.info-header-sm {
+  padding-left: 12px;
+}
+
+.answer {
+  margin-left: 10px;
 }
