@@ -1,10 +1,15 @@
 .above-the-fold {
-  min-height: 100vh;
+  min-height: 60vh;
   background-image: url("img/devOsan_noLogo.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   padding-top: 3em;
+}
+
+.navbar-collapse hr {
+  background: #e3e3e3;
+  opacity: 0.3;
 }
 
 #announcement-card-link {
