@@ -1,3 +1,4 @@
+
 var vals = [
 	`<h1 class="devOsan"">
               <span style="color: #696035;">{</span>dev<span style="color: #696035;">}</span>Osan
@@ -20,3 +21,8 @@ function generateLogo(numb) {
 	document.getElementById("devOsanLogo-dynamic").innerHTML=vals[numb];
 	document.getElementById("devOsanMiniLogo-dynamic").innerHTML=vals2[numb];
 } 
+
+$(function(){
+	var navMain = $(".navbar-collapse");
+	navMain.on("click","a:not([data-toggle])",null,function(){navMain.collapse('hide');});
+}); 
