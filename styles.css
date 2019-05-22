@@ -122,32 +122,3 @@ a {
 .info-header-sm {
   padding-left: 12px;
 }
-
-div[class="question1"]{
-  margin-left: 10px;
-  padding-bottom: 12px;
-  background-color: rgb(250,240,240);
-}
-
-div[class="question1"]>div[class="answer"]{
-  margin-left: 10px;
-  padding-bottom: 12px;
-  background-color: rgb(240,240,220);
-}
-
-div[class="question2"]{
-  margin-left: 10px;
-  padding-bottom: 12px;
-  background-color: rgb(240,240,240);
-}
-
-div[class="question2"]>div[class="answer"]{
-  margin-left: 10px;
-  padding-bottom: 12px;
-  background-color: rgb(230,240,220);
-}
-
-div[class="answer"]>b{
-	font-weight: normal;
-	text-decoration:underline;
-}
