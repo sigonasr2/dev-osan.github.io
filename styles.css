@@ -1,5 +1,5 @@
 .above-the-fold {
-  min-height: 95vh;
+  min-height: 100vh;
   background-image: url("img/devOsan_noLogo.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -63,26 +63,8 @@ h1 {
   font-size: 5em;
 }
 
-/*h1.devOsan{
-	text-shadow: 2px 2px 6px #AAFFAA;
-}
-
-a.devOsan{
-	text-shadow: 0px 0px 2px #AAFFAA;
-	color:black;
-}*/
-
-h4.devOsan{
-	text-shadow: 1px 1px 3px white;
-}
-
 h4 {
   font-size: 1.8em;
-}
-
-a {
-  font-weight: bold;
-  text-decoration: underline;
 }
 
 .vision-statement {
@@ -121,4 +103,8 @@ a {
 
 .info-header-sm {
   padding-left: 12px;
+}
+
+.answer {
+  margin-left: 10px;
 }
