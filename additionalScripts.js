@@ -20,6 +20,7 @@ window.onload=generateLogo(Math.floor(Math.random()*vals.length));
 function generateLogo(numb) {
 	document.getElementById("devOsanLogo-dynamic").innerHTML=vals[numb];
 	document.getElementById("devOsanMiniLogo-dynamic").innerHTML=vals2[numb];
+	console.log("Works. Numb: "+numb)
 } 
 
 $(function(){
