@@ -67,17 +67,9 @@ h4 {
   font-size: 1.8em;
 }
 
-h1.devOsan{
-	text-shadow: 2px 2px 6px #AAFFAA;
-}
-
-a.devOsan{
-	text-shadow: 0px 0px 2px #AAFFAA;
-	color:black;
-}
-
-h4.devOsan{
-	text-shadow: 1px 1px 3px white;
+a {
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 .vision-statement {
@@ -120,4 +112,33 @@ h4.devOsan{
 
 .answer {
   margin-left: 10px;
+}
+
+div[class="question1"]{
+  margin-left: 10px;
+  padding-bottom: 12px;
+  background-color: rgb(250,240,240);
+}
+
+div[class="question1"]>div[class="answer"]{
+  margin-left: 10px;
+  padding-bottom: 12px;
+  background-color: rgb(240,240,220);
+}
+
+div[class="question2"]{
+  margin-left: 10px;
+  padding-bottom: 12px;
+  background-color: rgb(240,240,240);
+}
+
+div[class="question2"]>div[class="answer"]{
+  margin-left: 10px;
+  padding-bottom: 12px;
+  background-color: rgb(230,240,220);
+}
+
+div[class="answer"]>b{
+	font-weight: normal;
+	text-decoration:underline;
 }
