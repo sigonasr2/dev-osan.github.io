@@ -34,7 +34,7 @@
     <!-- Header information, above the fold -->
     <div class="above-the-fold">
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="#" id="devOsanMiniLogo-dynamic">
           <span style="color: #696035">{</span>dev<span style="color: #696035">}</span>Osan
         </a>
         <button
@@ -103,7 +103,7 @@
           </div>
         </div>
         <div class="row name-slogan">
-          <div class="col col-md-6 offset-md-6">
+          <div class="col col-md-6 offset-md-6" id="devOsanLogo-dynamic">
             <h1>
               <span style="color: #696035">{</span>dev<span
                 style="color: #696035"
@@ -136,6 +136,11 @@
           <p>Osan Air Base, South Korea</p>
         </div>
       </div>
+      <div class="row">
+        <div class="col col-md-8 offset-md-2">
+          <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSGDZERSWpev1AnjFeM2_Nl3tQzm8ETDQMZMp6D1OGqZfVLl7bjIJpqbQRREBzqmR5TTEmDE4VWa99B/embed?start=true&loop=true&delayms=5000" frameborder="0" width="100%" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+        </div>
+      </div>
     </div>
 
     <!-- Events and Projects -->
@@ -150,9 +155,30 @@
         <div class="col-sm-6" id="projects">
           <h3><i class="fas fa-code-branch"></i><br />Projects</h3>
           <br />
-          <p>Bus GPS</p>
-          <p>{dev}Osan Website</p>
-          <p>Pending Game Engine</p>
+          <div id="projectCarousel" class="carousel slide" data-ride="carousel">
+			<div class="carousel-inner">
+				<div class="carousel-item active" data-interval="10000">
+					<h3>Bus GPS</h3>
+					<p>Kevin Falting</p>
+				</div>
+				<div class="carousel-item" data-interval="10000">
+					<h3>{dev}Osan Website</h3>
+					<p>{dev}Osan Club</p>
+				</div>
+				<div class="carousel-item" data-interval="10000">
+					<h3>Pending Game Engine</h3>
+					<p>Joshua Sigona</p>
+				</div>
+			</div>
+			<a class="carousel-control-prev" href="#projectCarousel" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="carousel-control-next" href="#projectCarousel" role="button" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		  </div>
         </div>
       </div>
     </div>
@@ -185,6 +211,12 @@
           <p>
             <a href="mailto:kevinfalting@gmail.com">kevinfalting@gmail.com</a>
           </p>
+          <p>
+            <a href="https://www.facebook.com/groups/256151891980498/"><i class="fab fa-facebook-square"></i></a>
+          </p>
+          <p>
+            <a href="https://github.com/dev-osan"><i class="fab fa-github-square"></i></a>
+          </p>
         </div>
       </div>
     </div>
@@ -206,5 +238,6 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+    <script src="additionalScripts.js"></script>
   </body>
 </html>
